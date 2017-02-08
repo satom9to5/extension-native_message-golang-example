@@ -1,0 +1,13 @@
+{
+  "name": "example_golang",
+  "description": "Example host for native messaging",
+  "path": "example_golang.bat",
+  "type": "stdio",
+  // For Firefox
+  "allowed_extensions": [ "example_golang@example.org" ],
+  // For Chrome
+  "allowed_origins": [
+    "chrome-extension://aiefcjpolnbplpglbkagcimgglaifpll/",
+    "chrome-extension://ofpgdfnkaajamgiaeeokcodmfhilhcoc/"
+  ]
+}
